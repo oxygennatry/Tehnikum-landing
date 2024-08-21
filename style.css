@@ -6,14 +6,14 @@
 }
 
 section {
-    padding: 0 128px;
+    padding: 0 calc(10.7vw - 17px);
     margin-bottom: 160px;
 }
 
 .head {
     background-image: url(./img/html_css_js\ 1.png);
     background-repeat: no-repeat;
-    background-size: 30vw;
+    background-size: 40vw;
     background-position: right 58px top 121px;
 }
 
@@ -25,7 +25,8 @@ section {
 
 .course_info {
     display: flex;
-    gap: 162px;
+    flex-wrap: wrap;
+    gap: calc(14.6vw - 24px);
     margin-bottom: 76px;
 }
 
@@ -47,18 +48,19 @@ line-height: 140%;
 
 h1 {
     font-family: "Chava";
-font-size: 80px;
+    width: calc(49.2vw + 148px);
+font-size: calc(4.2vw + 26px);
 font-weight: 400;
 line-height: 110%;
 text-align: left;
 margin-bottom: 40px;
 }
 .jobInfo {
-font-size: 27px;
+    width: calc(66.5vw + 78px);
+font-size: calc(1vw + 17px);
 font-weight: 300;
 line-height: 37.8px;
 text-align: left;
-width: 930px;
 margin-bottom: 20px;
 }
 
@@ -72,7 +74,9 @@ margin-bottom: 20px;
     line-height: 117%;
     color: #fff;
     border: none;
+    margin-bottom: 20px;
 }
+
 
 
 
@@ -136,21 +140,23 @@ margin-bottom: 95px;
 }
 
 .sell {
-font-size: 52px;
+font-size: calc(2vw + 26px);
+width: calc(38.2vw + 186px);
 font-weight: 700;
+text-align: center;
 line-height: 117%;
 color: #fff;
 }
 
 .sell_container {
     display: flex;
-    gap: 85px ;
+    gap: calc(5.9vw + 10.3px) ;
     flex-wrap: nowrap;
 }
 
 .sell_card .time {
     font-family: "Chava";
-font-size: 174px;
+font-size: calc(9.3vw + 25px);
 font-weight: 400;
 line-height: 107%;
 text-align: left;
@@ -240,10 +246,15 @@ line-height: 29.4px;
 
 
 .list h2 {
+    width: calc(76.7vw + 40px);
     font-size: calc(2.7vw + 24px);
+ 
     font-weight: 500;
-    line-height: 68.32px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
     text-align: left;
+    text-transform: uppercase;
+    
     }
     .school {
         margin-top: 160px;
@@ -335,3 +346,87 @@ line-height: 29.4px;
     top: calc(9vw - 9.1px);
     left: calc(6.7vw - 1.2px);
     }
+
+
+
+    /* rewiew start */
+
+    .rev {
+        font-size: 58px;
+        font-weight: 500;
+        line-height: 68.32px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    }
+
+
+
+.review p {
+font-size: 24px;
+font-weight: 400;
+line-height: 29.4px;
+height: 261px;
+width: 305;
+}
+
+.review {
+    background-color:#F0F7FD;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.youtube {
+    padding: 50px 20px;
+}
+
+.client  {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 58px 45px 20px ;
+font-size: 21px;
+font-weight: 400;
+line-height: 29.4px;
+text-align: left;
+}
+
+.client span {
+    width: 169px;
+    display: block;
+}
+
+.client img {
+    width: 72px;
+    height: 72px;
+}
+
+    /* review end */
+
+
+
+    /* photoslide start */
+
+    .photoslide h2 {
+        font-size: calc(2.6vw + 24.2px);
+        font-weight: 500;
+        line-height: 68.32px;
+    }
+    
+    .photoslide p {
+        width: calc(46.2vw + 157.2px);
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.8px;
+    }
+    
+    .photoslide img {
+        width: calc(19.7vw + 255px);
+    height: calc(19.7vw + 255px);
+    }
+
+    /* photoslide end */
+
+    @media ()
